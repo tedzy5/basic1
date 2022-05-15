@@ -4,8 +4,14 @@ import logo from "../logo.svg";
 const Header = () => {
     const author = "Theodor";
 
+    const head = {
+        backgroundColor: 'red',
+        padding: '1em',
+        color: 'darkblue'
+    };
+
     return (
-        <header className="App-header">
+        <header className="" style={head}>
             <img src={logo} className="App-logo" alt="logo" />
             <p>
                 Edit <code>src/App.js</code> and save to say 'Hello World' for {author}.
